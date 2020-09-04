@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#DEEAD1"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:text="한식"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageButton
+        android:id="@+id/message_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:background="@drawable/ic_outline_mail_outline_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageButton
+        android:id="@+id/search_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="right"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:background="@drawable/ic_baseline_search_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</androidx.appcompat.widget.Toolbar>

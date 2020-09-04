@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <TextView
+        android:id="@+id/subfrag1_txttop"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="총 257건"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+        <RelativeLayout
+            android:id="@+id/subfrag1_rel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subfrag1_txttop"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/subfrag1_rel1_img1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/content1"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel1_txt1"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/subfrag1_rel1_img1"
+                android:text="집에서 해먹는 어머니의 손맛! 김치찌개 된장찌개 제육볶음"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel1_txt2"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel1_img1"
+                android:layout_below="@id/subfrag1_rel1_txt1"
+                android:text="0.0 | 0개의 평가"
+                android:textSize="11dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel1_txt3"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel1_img1"
+                android:layout_below="@id/subfrag1_rel1_txt2"
+                android:text="20,000원~"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/subfrag1_rel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subfrag1_rel1"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/subfrag1_rel2_img1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/content1"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel2_txt1"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/subfrag1_rel2_img1"
+                android:text="집에서 해먹는 어머니의 손맛! 김치찌개 된장찌개 제육볶음"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel2_txt2"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel2_img1"
+                android:layout_below="@id/subfrag1_rel2_txt1"
+                android:text="0.0 | 0개의 평가"
+                android:textSize="11dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel2_txt3"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel2_img1"
+                android:layout_below="@id/subfrag1_rel2_txt2"
+                android:text="50,000원~"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/subfrag1_rel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subfrag1_rel2"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/subfrag1_rel3_img1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/content1"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel3_txt1"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/subfrag1_rel3_img1"
+                android:text="집에서 해먹는 어머니의 손맛! 김치찌개 된장찌개 제육볶음"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel3_txt2"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel3_img1"
+                android:layout_below="@id/subfrag1_rel3_txt1"
+                android:text="0.0 | 0개의 평가"
+                android:textSize="11dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel3_txt3"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel3_img1"
+                android:layout_below="@id/subfrag1_rel3_txt2"
+                android:text="50,000원~"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/subfrag1_rel4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subfrag1_rel3"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/subfrag1_rel4_img1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/content1"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel4_txt1"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/subfrag1_rel4_img1"
+                android:text="집에서 해먹는 어머니의 손맛! 김치찌개 된장찌개 제육볶음"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel4_txt2"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel4_img1"
+                android:layout_below="@id/subfrag1_rel4_txt1"
+                android:text="0.0 | 0개의 평가"
+                android:textSize="11dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel4_txt3"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel4_img1"
+                android:layout_below="@id/subfrag1_rel4_txt2"
+                android:text="50,000원~"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/subfrag1_rel5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subfrag1_rel4"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/subfrag1_rel5_img1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/content1"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel5_txt1"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/subfrag1_rel5_img1"
+                android:text="집에서 해먹는 어머니의 손맛! 김치찌개 된장찌개 제육볶음"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel5_txt2"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel5_img1"
+                android:layout_below="@id/subfrag1_rel5_txt1"
+                android:text="0.0 | 0개의 평가"
+                android:textSize="11dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel5_txt3"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel5_img1"
+                android:layout_below="@id/subfrag1_rel5_txt2"
+                android:text="50,000원~"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/subfrag1_rel6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subfrag1_rel5"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/subfrag1_rel6_img1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/content1"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel6_txt1"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/subfrag1_rel6_img1"
+                android:text="집에서 해먹는 어머니의 손맛! 김치찌개 된장찌개 제육볶음"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel6_txt2"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel6_img1"
+                android:layout_below="@id/subfrag1_rel6_txt1"
+                android:text="0.0 | 0개의 평가"
+                android:textSize="11dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel6_txt3"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel6_img1"
+                android:layout_below="@id/subfrag1_rel6_txt2"
+                android:text="50,000원~"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/subfrag1_rel7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subfrag1_rel6"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/subfrag1_rel7_img1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/content1"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel7_txt1"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/subfrag1_rel7_img1"
+                android:text="집에서 해먹는 어머니의 손맛! 김치찌개 된장찌개 제육볶음"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel7_txt2"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel7_img1"
+                android:layout_below="@id/subfrag1_rel7_txt1"
+                android:text="0.0 | 0개의 평가"
+                android:textSize="11dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel7_txt3"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel7_img1"
+                android:layout_below="@id/subfrag1_rel7_txt2"
+                android:text="50,000원~"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/subfrag1_rel8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subfrag1_rel7"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/subfrag1_rel8_img1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/content1"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel8_txt1"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/subfrag1_rel8_img1"
+                android:text="집에서 해먹는 어머니의 손맛! 김치찌개 된장찌개 제육볶음"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel8_txt2"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel8_img1"
+                android:layout_below="@id/subfrag1_rel8_txt1"
+                android:text="0.0 | 0개의 평가"
+                android:textSize="11dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:id="@+id/subfrag1_rel8_txt3"
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/subfrag1_rel8_img1"
+                android:layout_below="@id/subfrag1_rel8_txt2"
+                android:text="50,000원~"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

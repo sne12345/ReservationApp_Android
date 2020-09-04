@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/frag2_row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel1"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel1_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_person_24"
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel1_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel1_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel2"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_toRightOf="@id/frag2_rel1"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel2_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel2_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel2_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/frag2_rel3"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_toRightOf="@id/frag2_rel2"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel3_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel3_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel3_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frag2_row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frag2_row1"
+            android:layout_centerHorizontal="true">
+
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel4"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel4_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel4_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel4_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel5"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_toRightOf="@id/frag2_rel4"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel5_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel5_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel5_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel6"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_toRightOf="@id/frag2_rel5"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel6_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel6_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel6_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frag2_row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frag2_row2"
+            android:layout_centerHorizontal="true">
+
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel7"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel7_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel7_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel7_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel8"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_toRightOf="@id/frag2_rel7"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel8_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel8_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel8_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel9"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_toRightOf="@id/frag2_rel8"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel9_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel9_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel9_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frag2_row4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frag2_row3"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel10"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel10_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel10_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel10_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel11"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_toRightOf="@id/frag2_rel10"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel11_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel11_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel11_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frag2_rel12"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_toRightOf="@id/frag2_rel11"
+                >
+
+                <ImageView
+                    android:id="@+id/frag2_rel12_img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/frag2_rel12_txt1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frag2_rel12_img1"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="디자인"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frag2_bottomtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frag2_row4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="최근 본 카테고리"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

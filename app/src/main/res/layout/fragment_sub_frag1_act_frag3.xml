@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SubFrag1ActFrag3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/sub1act_frag3_wrap1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp">
+
+        <TextView
+            android:id="@+id/sub1act_frag3_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="수업가능일"
+            android:textStyle="bold"
+            android:textSize="23dp"/>
+
+        <RelativeLayout
+            android:id="@+id/sub1act_frag3_rel1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/sub1act_frag3_txt1"
+            android:layout_marginTop="20dp"
+            android:background="#EFEDED"
+            >
+
+            <TextView
+                android:id="@+id/sub1act_frag3_rel1_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08월 - 09월"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                />
+            <TextView
+                android:id="@+id/sub1act_frag3_rel1_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="평일 13시 - 18시"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:layout_below="@id/sub1act_frag3_rel1_txt1"
+                />
+            <TextView
+                android:id="@+id/sub1act_frag3_rel1_txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사당"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:layout_toRightOf="@+id/sub1act_frag3_rel1_txt1"
+                android:paddingTop="30dp"
+                android:layout_marginLeft="190dp"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sub1act_frag3_wrap2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/sub1act_frag3_wrap1"
+        >
+
+        <TextView
+            android:id="@+id/sub1act_frag3_txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="수업가능장소"
+            android:textStyle="bold"
+            android:textSize="23dp"/>
+
+        <RelativeLayout
+            android:id="@+id/sub1act_frag3_rel2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/sub1act_frag3_txt4"
+            android:layout_marginTop="20dp"
+            android:background="#EFEDED"
+            >
+
+            <TextView
+                android:id="@+id/sub1act_frag3_rel1_txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="송파구"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                />
+            <TextView
+                android:id="@+id/sub1act_frag3_rel1_txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="외부공간대여"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:layout_below="@id/sub1act_frag3_rel1_txt5"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubFrag1Activity">
+
+    <ImageView
+        android:id="@+id/sub1act_img1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/picture1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sub1act_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sub1act_img1"
+        android:padding="20dp"
+        android:text="집에서 해먹는 어머니의 손맛! 김치찌개 된장찌개 제육볶음"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub1act_img1" />
+
+    <TextView
+        android:id="@+id/sub1act_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20,000원 (시간)"
+        android:layout_below="@id/sub1act_txt1"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/sub1act_txt1"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/sub1act_lin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/sub1act_txt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        >
+        <ImageView
+            android:id="@+id/sub1act_rel1_img1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_star_24"
+            />
+        <ImageView
+            android:id="@+id/sub1act_rel1_img2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_star_24"
+            />
+        <ImageView
+            android:id="@+id/sub1act_rel1_img3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_star_24"
+            />
+        <ImageView
+            android:id="@+id/sub1act_rel1_img4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_star_24"
+            />
+        <ImageView
+            android:id="@+id/sub1act_rel1_img5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_star_24"
+            android:layout_toRightOf="@id/sub1act_rel1_img4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.0(3)"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            />
+    </LinearLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/sub1act_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub1act_txt2"
+        android:layout_marginTop="20dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/sub1act_tabItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MON" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/sub1act_tabItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tue" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/sub1act_tabItem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wed" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/sub1act_tabItem4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thur" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/sub1act_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub1act_tab_layout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

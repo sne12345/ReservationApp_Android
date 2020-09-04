@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+        <RelativeLayout
+            android:id="@+id/frag4_relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <com.kakao.usermgmt.LoginButton
+                android:id="@+id/btn_kakao_login"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="40dp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frag4_btn1_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/btn_kakao_login"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/round_corner"
+                android:backgroundTint="#ffffff"
+                android:text="로그인"
+                android:textColor="#888686"
+                android:textSize="18dp"
+                app:cornerRadius="10dp" />
+
+
+            <RelativeLayout
+                android:id="@+id/frag4_relative1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_below="@id/frag4_btn1_2"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/frag4_relative1_3_txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="아직 회원이 아니세요?"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/frag4_relative1_3_txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/frag4_relative1_3_txt1"
+                    android:text="회원가입"
+                    android:textColor="#DC5148"
+                    android:textSize="15dp" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+</RelativeLayout>

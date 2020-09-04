@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/frag4_rel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:paddingBottom="50dp">
+
+        <TextView
+            android:id="@+id/frag4_rel1_txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="아이디"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etID"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/frag4_rel1_txt1"
+            android:background="@drawable/edit_text_border"
+            android:hint="아이디를 입력해주세요."
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/frag4_rel1_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etID"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="비밀번호"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPASSWD"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/frag4_rel1_txt2"
+            android:background="@drawable/edit_text_border"
+            android:hint="비밀번호를 입력해주세요."
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/frag4_rel1_txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etPASSWD"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="휴대폰번호"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPHONE"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/frag4_rel1_txt3"
+            android:background="@drawable/edit_text_border"
+            android:hint="비밀번호를 입력해주세요."
+            android:paddingLeft="15dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn2_background"
+            android:backgroundTint="#2679BC"
+            android:text="회원가입"
+            android:textSize="17dp"
+            android:textColor="#E8E3E3"
+            android:fontFamily="@font/godofont"
+            android:layout_below="@id/etPHONE"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <RelativeLayout
+            android:id="@+id/login_relative1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/btnLogin"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/login_relative1_3_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="아직 회원이 아니세요?"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/btnJoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/login_relative1_3_txt1"
+                android:text="회원가입"
+                android:textColor="#DC5148"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EDECEC"
+        >
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPagerImageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/relative_hor1"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginTop="70px"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:background="@drawable/round_corner"
+            android:layout_below="@id/viewPagerImageSlider"
+            android:backgroundTint="#ffffff"
+            android:elevation="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/relative_hor1_img1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_baseline_search_24"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                />
+            <TextView
+                android:id="@+id/relative_hor1_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="지역선택"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/relative_hor1_img1"
+                android:layout_marginTop="30dp"
+                />
+            <EditText
+                android:id="@+id/relative_hor1_edit1"
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:hint="서울 / 강남구"
+                android:paddingLeft="10dp"
+                android:layout_below="@id/relative_hor1_txt1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="7dp"
+                android:textSize="17dp"
+                android:background="@drawable/edit_text_border"
+                />
+
+            <ImageView
+                android:id="@+id/relative_hor2_img1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_baseline_search_24"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/relative_hor1_edit1"
+                />
+            <TextView
+                android:id="@+id/relative_hor2_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="차종선택"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/relative_hor2_img1"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/relative_hor1_edit1"
+                />
+            <EditText
+                android:id="@+id/relative_hor2_edit1"
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:hint="중형 / LPG"
+                android:paddingLeft="10dp"
+                android:layout_below="@id/relative_hor2_txt1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="7dp"
+                android:textSize="17dp"
+                android:background="@drawable/edit_text_border"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150px"
+                android:layout_below="@id/relative_hor2_edit1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner"
+                android:backgroundTint="#2679BC"
+                android:text="차량 예약하기"
+                android:textSize="16dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_hor8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relative_hor1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="500dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="회원님을 위한 맞춤 서비스"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginLeft="25dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
